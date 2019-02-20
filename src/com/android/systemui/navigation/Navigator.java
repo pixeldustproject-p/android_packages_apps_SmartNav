@@ -102,6 +102,7 @@ public interface Navigator extends PluginListener<NavGesture> {
     public default void notifyPulseScreenOn(boolean screenOn) {}
     public default void sendIntentToPulse(Intent intent) {}
     public default void swiftNavigationBarItems(int horizontalShift, int verticalShift) {}
+    public default boolean isFullGestureMode() { return false; }
 
     /*
      * DUI additional methods to support additional winning ;D
