@@ -323,7 +323,7 @@ public abstract class BaseNavigationBar extends LinearLayout implements Navigato
             if (mPulse != null) {
                 mPulse.setKeyguardShowing(showing);
             }
-            onKeyguardShowing(showing);
+            //onKeyguardShowing(showing);
         }
     }
 
